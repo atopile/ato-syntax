@@ -455,7 +455,7 @@
                 },
                 {
                     "name": "constant.numeric.physical.bilateral.percentage.ato",
-                    "match": "\\b((?:[+-]?)\\d+(?:\\.\\d+)?(?:[eE][+-]?\\d+)?)\\s*([a-zA-Z%Ωµμ\\u00B0]+)?\\s*(\\+/-)\\s*((?:[+-]?)\\d+(?:\\.\\d+)?(?:[eE][+-]?\\d+)?)\\s*(%)",
+                    "match": "\\b((?:[+-]?)\\d+(?:\\.\\d+)?(?:[eE][+-]?\\d+)?)\\s*([a-zA-Z%Ωµμ°]+)?\\s*(\\+/-)\\s*((?:[+-]?)\\d+(?:\\.\\d+)?(?:[eE][+-]?\\d+)?)\\s*(%)",
                     "captures": {
                         "1": {
                             "name": "constant.numeric.value.ato"
@@ -476,7 +476,7 @@
                 },
                 {
                     "name": "constant.numeric.physical.bilateral.absolute.ato",
-                    "match": "\\b((?:[+-]?)\\d+(?:\\.\\d+)?(?:[eE][+-]?\\d+)?)\\s*([a-zA-Z%Ωµμ\\u00B0]+)?\\s*(\\+/-)\\s*((?:[+-]?)\\d+(?:\\.\\d+)?(?:[eE][+-]?\\d+)?)\\s*([a-zA-ZΩµμ\\u00B0]+)?\\b",
+                    "match": "\\b((?:[+-]?)\\d+(?:\\.\\d+)?(?:[eE][+-]?\\d+)?)\\s*([a-zA-Z%Ωµμ°]+)?\\s*(\\+/-)\\s*((?:[+-]?)\\d+(?:\\.\\d+)?(?:[eE][+-]?\\d+)?)\\s*([a-zA-ZΩµμ°]+)?\\b",
                     "captures": {
                         "1": {
                             "name": "constant.numeric.value.ato"
@@ -497,7 +497,7 @@
                 },
                 {
                     "name": "constant.numeric.physical.range.ato",
-                    "match": "\\b((?:[+-]?)\\d+(?:\\.\\d+)?(?:[eE][+-]?\\d+)?)\\s*([a-zA-Z%Ωµμ\\u00B0]+)?\\s+\\b(to)\\b\\s+((?:[+-]?)\\d+(?:\\.\\d+)?(?:[eE][+-]?\\d+)?)\\s*([a-zA-Z%Ωµμ\\u00B0]+)?\\b",
+                    "match": "\\b((?:[+-]?)\\d+(?:\\.\\d+)?(?:[eE][+-]?\\d+)?)\\s*([a-zA-Z%Ωµμ°]+)?\\s+\\b(to)\\b\\s+((?:[+-]?)\\d+(?:\\.\\d+)?(?:[eE][+-]?\\d+)?)\\s*([a-zA-Z%Ωµμ°]+)?\\b",
                     "captures": {
                         "1": {
                             "name": "constant.numeric.value.lower.ato"
@@ -518,7 +518,7 @@
                 },
                 {
                     "name": "constant.numeric.physical.simple.ato",
-                    "match": "\\b((?:[+-]?)\\d+(?:\\.\\d+)?(?:[eE][+-]?\\d+)?)\\s*([a-zA-Z%Ωµμ\\u00B0]+)?\\b(?!\\s*(?:\\+/-|\\bto\\b))",
+                    "match": "\\b((?:[+-]?)\\d+(?:\\.\\d+)?(?:[eE][+-]?\\d+)?)\\s*([a-zA-Z%Ωµμ°]+)?\\b(?!\\s*(?:\\+/-|\\bto\\b))",
                     "captures": {
                         "1": {
                             "name": "constant.numeric.value.ato"
